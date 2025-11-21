@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Simple Note App</title>
+</head>
+<body>
+    <div class="h-screen w-screen bg-blue-900
+    grid place-items-center">
+
+        <div class="flex gap-6 p-6 h-1/2 w-1/2
+        bg-violet-900 border-4 border-black rounded-lg" id="NoteCanvas">
+            
+
+            <input type="button" class="gap-4 h-12 w-10 rounded-full border-2 border-black
+             bg-green-600 hover:bg-green-800 active:bg-green-900 active:border-gray-600 transition"
+             id="btn_add" value="ADD"></input>
+
+            <input type="button" class="gap-4 h-12 w-10 rounded-full border-2 border-black
+             bg-red-600 hover:bg-red-800 active:bg-red-900 active:border-gray-600 transition"
+             id="btn_del" value="DEL"></input>
+        </div>
+
+    </div>
+<script src="script.js" defer></script>
+</body>
+</html>
